@@ -1,7 +1,6 @@
 from typing import Tuple, List, Optional
 
 from algorithm.msoc import minimal_sum_of_costs_controller
-from algorithm.gp import graph_partitioning_controller
 from board.board import Board
 from board.controller import AutoController
 from game import game
@@ -43,7 +42,6 @@ def auto():
         cell_size=(15, 15),
         init_salesman_list= None,
         auto_controller=minimal_sum_of_costs_controller,
-        # auto_controller=graph_partitioning_controller,
     )
 
 

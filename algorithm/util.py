@@ -1,9 +1,7 @@
-from typing import List, Dict, Tuple, Set
+from typing import List, Dict, Tuple
 
 import numpy as np
 import scipy as sp
-import scipy.optimize
-import scipy.sparse
 from sklearn.cluster import SpectralClustering, AffinityPropagation
 
 

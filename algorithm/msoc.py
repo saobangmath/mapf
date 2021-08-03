@@ -1,4 +1,4 @@
-from typing import List, Dict
+from typing import List
 import numpy as np
 
 from algorithm.util import shortest_path, linear_sum_assignment, assignment_to_path
